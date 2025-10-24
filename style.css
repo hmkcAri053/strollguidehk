@@ -1,0 +1,192 @@
+/* 通用样式 */
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: regular;
+}
+
+/* 标题总区域 */
+.header {
+    background-color: #40407a;
+    margin: 0;
+    padding: 0 0 1vh 0;
+}
+
+/* 标题文字 */
+.headertext h1 {
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 3vh 0 2vh 0;
+}
+
+.headertext p {
+    color: #ffffff;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* 导航栏区域 */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #706fd3;
+    padding: 2.5vh 7vw;
+    margin: 1rem 2vw;
+    border-radius: 1.25rem;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: regular;
+}
+
+/* 头部图片区域 */
+.headerpic {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* 内容通用区域 */
+.content {
+    background-color: #f7f1e3;
+    margin: 0;
+}
+
+.content h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.content p {
+    font-size: 1.2rem;
+    font-weight: regular;
+    line-height: 1.5;
+}
+.content a {
+    text-decoration: none;
+    color: #34ace0;
+    font-size: 1.2rem;
+    font-weight: regular;
+    line-height: 1.5;
+}
+.arrow-right {
+    width: 1rem;
+    height: 1rem;
+}
+
+/* 路线信息区域 */
+.routesinfo {
+    display: grid;
+    height: auto;
+    grid-template-areas:
+        "r_image r_text";
+    gap: 1rem;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+    margin: 0 4vw;
+    padding: 5vh 0;
+}
+
+.routesinfo h2 {
+    text-align: left;
+    margin: 0 0 2vh 0;
+    padding: 0;
+}
+
+.r_image {
+    grid-area: r_image;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+.r_text {
+    grid-area: r_text;
+    margin: 0;
+    padding: 0 0 0 3vw;
+}
+
+/* 食物指南区域 */
+.foodguide {
+    display: grid;
+    height: auto;
+    grid-template-areas:
+        "f_text f_image";
+    gap: 1rem;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+    margin: 0 4vw;
+    padding: 5vh 0;
+}
+
+.foodguide h2 {
+    text-align: right;
+    margin: 0 0 2vh 0;
+    padding: 0;
+}
+
+.foodguide p {
+    text-align: right;
+    margin: 0 0 2vh 0;
+    padding: 0;
+}
+
+.foodguide a {
+    display: block;
+    text-align: right;
+    margin: 0 0 2vh 0;
+    padding: 0;
+}
+
+.f_image {
+    grid-area: f_image;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+.f_text {
+    grid-area: f_text;
+    margin: 0;
+    padding: 0 3vw 0 0;
+}
+
+/* 底部区域 */
+.footer {
+    background-color: #40407a;
+    color: #ffffff;
+    text-align: center;
+    padding: 2vh 0;
+    margin: 0;
+}
+
+.footer p {
+    font-size: 0.8rem;
+    font-weight: thin;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
