@@ -277,12 +277,12 @@ p {
 .description {
     display: grid;
     width: 100%;
-    max-width: 900px;
+    max-width: 80vw;
     height: auto;
     grid-template-areas:
         "description_image description_text"
         "description_image description_map";
-    gap: 1rem;
+    gap: 2rem;
     grid-template-columns: 1fr 2fr;
     grid-template-rows: auto 1fr;
     margin: 0 auto;
@@ -292,12 +292,12 @@ p {
 .description_flip {
     display: grid;
     width: 100%;
-    max-width: 900px;
+    max-width: 80vw;
     height: auto;
     grid-template-areas:
         "description_text_flip description_image"
         "description_map description_image";
-    gap: 1rem;
+    gap: 2rem;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: auto 1fr;
     margin: 0 auto;
